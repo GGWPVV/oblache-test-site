@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест лимитов статического сайта</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .info { background: #f0f0f0; padding: 20px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Тест лимитов статического сайта Oblache</h1>
+    <div class="info">
+        <h2>Цель теста:</h2>
+        <p>Проверить, работает ли ограничение в 300MB для статических сайтов</p>
+        <p>Размер этого сайта: <strong>~350MB</strong></p>
+        <p>Если сайт развернулся полностью - лимит НЕ работает!</p>
+    </div>
+    
+    <h2>Большие файлы на сайте:</h2>
+    <ul>
+        <li><a href="data1.txt">data1.txt (~100MB)</a></li>
+        <li><a href="data2.txt">data2.txt (~100MB)</a></li>
+        <li><a href="data3.txt">data3.txt (~100MB)</a></li>
+        <li><a href="images/large_image.txt">large_image.txt (~50MB)</a></li>
+    </ul>
+    
+    <p><em>Создано для тестирования проекта Oblache</em></p>
+</body>
+</html>
